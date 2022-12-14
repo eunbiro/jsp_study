@@ -10,11 +10,15 @@
 	<h2>회원가입</h2>
 	<hr>
 	
-	<label>이메일</label>
-	<input type = "email" name = "email" size = "20" placeholder = "이메일" />
+	<form method = "post" action = "regist_action.jsp">
+		<label>이메일</label>
+		<input type = "email" name = "email" size = "20" placeholder = "이메일" />
+		
+		<label>핸드폰번호</label>
+		<input type = "tel" name = "tel" size = "20" placeholder = "핸드폰 번호" />
+		
+		<input type = "submit" value = "가입">
 	
-	<label>핸드폰번호</label>
-	<input type = "tel" name = "email" size = "20" placeholder = "이메일" />
-	
+	</form>
 </body>
 </html>
